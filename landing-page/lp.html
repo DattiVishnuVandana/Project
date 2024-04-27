@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="lp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+   <div class="bar">
+    <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">skills</a>
+            <a href="">programs</a>
+            <a href="">contact</a>
+   </div>
+</header>
+   <nav>
+   <label for="" class="logo">Edu</label>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="">programs</a></li>
+      <li><a href="">contact</a></li>
+    </ul>
+    <div id="menubars" onclick="sidebar()"><i class="fas fa-bars"></i></div>
+    <button class="btn">login</button>
+      </nav>
+    <section class="one">
+      <div class="main">
+        <div class="content">
+          <h1>Become the architect of your career.</h1>
+            <h1> Build your foundation with internships, </h1>
+            <h1>
+              refine your skills with courses </h1>
+
+          <div class="high">
+            <pre>
+              95000+
+              enrollments
+            </pre>
+            <hr>
+            <pre>
+              100+
+              experts
+            </pre>
+            <hr>
+            <pre>
+              4.9
+              Rating
+            </pre>
+          </div>
+        </div>
+      </div>
+        </section>
+  <section class="two">
+    <button class="contact">view more</button>
+     <button class="viewmore">book your slot</button>
+  </section> 
+<section id="about">
+  <div class="head">ABOUT US</div>
+  <div class="about-content">
+    <div class="image "><img src="edu.webp" alt=""></div>
+    <p>Welcome to Edu, your premier destination for comprehensive online training and internship opportunities.
+      At Edu, we are passionate about bridging the gap between ambition and achievement. We understand that in today's dynamic world, traditional education alone isn't always enough to prepare individuals for the demands of the professional landscape. That's why we've curated a diverse array of courses and internship programs designed to empower learners with the skills, knowledge, and experience needed to thrive in their chosen fields.  
+      Our platform is built on the belief that education should be accessible to all, regardless of geographical location or financial constraints. Through our user-friendly interface and flexible learning options, we strive to make high-quality education and valuable internship experiences available to anyone with a desire to learn and grow.
+     </p>
+  </div>
+</section>
+<section class="courses">
+<h1>our courses</h1>
+  <div class="programs">
+  
+    <div class="box">
+      <div class="img">
+        <img src="webdev.png" alt="https://i.pinimg.com/originals/1a/32/c4/1a32c4fee6951ed285739b3bdbd6690a.png">
+      </div>
+      <div class="img-content">
+        <h2>web development</h2>
+      <p>enroll now</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="ml.jpeg" alt="https://th.bing.com/th/id/OIP.0IQOClwIwwOWOVsoq91hzQHaE8?w=1254&h=836&rs=1&pid=ImgDetMain">
+      </div>
+      <div class="img-content">
+        <h2>machine learning</h2>
+      <p>enroll now</p>
+      </div>   
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="devops.jpg" alt="https://wallpaperaccess.com/full/2648921.jpg">
+      </div>
+      <div class="img-content">
+        <h2>devops</h2>
+      <p>enroll now</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cc.webp" alt=" https://wallpapercave.com/wp/wp3929768.jpg">
+      </div>
+      <div class="img-content">
+        <h2>cloud computing</h2>
+      <p>enroll now</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+<div class="foot-container">
+  <div class="foot-content">
+    <h3>contact us</h3>
+    <p>Email:example@edu.com</p>
+    <p>Phone:+91 99876 54321</p>
+    <p><pre>Address:8 th floor ,gandhinagar
+                  ,benguluru,karnataka</pre> </p>
+  </div>
+  <div class="foot-content">
+    <h3>Available on</h3>
+    <p>google playstore</p>
+    <p>App store</p>
+  </div>
+  <div class="foot-content">
+    <h3>follow us </h3>
+    <li><a href="#"><i class="fa-brands fa-instagram  "style="color: #ffff;"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-facebook " style="color: #ffff;"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #ffff;"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-whatsapp"style="color: #ffff;"></i></a></li>
+  </div>
+</div>
+<hr>
+<div class="bottom">
+  <p>&copy:2024 vandana .All rights reseved</p>
+</div>
+</footer>
+<script>
+  let k=0;
+  function sidebar(){
+      let side=document.querySelector('header');
+      if(k==0)
+      {side.style.left="0%";
+      k=1;}
+      else if(k==1){
+          side.style.left="-120%"; 
+
+          k=0;
+      }}
+</script>
+</body>
+</html>
